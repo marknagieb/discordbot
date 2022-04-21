@@ -3,7 +3,6 @@ const { Client, Intents, MessageActionRow, MessageButton } = require('discord.js
 const { token } = require('./config.json');
 const { TicTacToe } = require('./databaseObjects.js');
 const axios = require('axios');
-const math = require('math.js');
 const Discord = require('discord.js')
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
 
